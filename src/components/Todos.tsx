@@ -3,7 +3,7 @@ import { TodoPresentation } from "./TodoPresentation"
 
 type TodoProps = {
     todos: Todo[]
-    onDelete: (id: string) => void;
+    onDelete: (id: string, isDone: boolean) => void;
     onToggleDone: (id: string) => void;
 }
 

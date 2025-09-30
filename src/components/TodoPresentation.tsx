@@ -3,7 +3,7 @@ import type { Todo } from "../models/Todo"
 
 type TodoPresentationProps = {
     todo: Todo
-    onDelete: (id: string) => void;
+    onDelete: (id: string, isDone: boolean) => void;
     onToggleDone: (id: string) => void;
 }
 
@@ -11,7 +11,7 @@ export const TodoPresentation = ({todo, onDelete, onToggleDone}: TodoPresentatio
 
 
     const deleteTodo = () => {
-        onDelete(todo.id)
+        onDelete(todo.id, todo.isDone)
     }
 
         const toggleDone = () => {

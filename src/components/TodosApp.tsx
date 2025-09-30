@@ -9,15 +9,18 @@ export const TodosApp = () => {
         JSON.parse(localStorage.getItem("todos") || JSON.stringify(
             [
             new Todo('Så plantor', new Date(), false),
-            new Todo('Vattna plantor', new Date(), false),
-            new Todo('Rensa ogräs', new Date(), false),
+            new Todo('Rensa ogräs', new Date(), true),
         ]
         )))
 
     const [sortOrder, SetSortOrder] = useState<'asc' | 'desc' | null>(null)
 
-    const handleDelete = (id: string) => {
-        setTodoList(todoList.filter(todo => todo.id !== id));
+    const handleDelete = (id: string, isDone: boolean) => {
+        if (isDone) {
+            setTodoList(todoList.filter(todo => todo.id !== id));
+        } else {
+            return;
+        }
     };
 
     const handleToggleDone = (id: string) => {
