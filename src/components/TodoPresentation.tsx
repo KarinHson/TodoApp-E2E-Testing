@@ -28,7 +28,7 @@ export const TodoPresentation = ({todo, onDelete, onToggleDone}: TodoPresentatio
                 <h2 className={`text-2xl break-all flex-1 ${todo.isDone ? "line-through text-gray-500" : ""}`}>{todo.content}</h2>
             </div>
             <p className="italic">Skapades: {todo.created_at.toLocaleString()}</p>
-            <button onClick={deleteTodo} className="mt-2 bg-pink-300 hover:bg-pink-400 text-white py-1 px-3 rounded" >Ta bort</button>
+            <button onClick={deleteTodo} className="mt-2 bg-pink-300 hover:bg-pink-400 text-white py-1 px-3 rounded disabled:bg-gray-300 disabled:cursor-not-allowed" disabled={!todo.isDone} >Ta bort</button>
         </li>
     )
 }
