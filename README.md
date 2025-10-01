@@ -45,6 +45,11 @@ This website includes several key features:
 
 Here are some screenshots from the site:
 
+Mobile
+![Mobile size](https://github.com/user-attachments/assets/cc69a288-3b0d-4b38-ab23-54ec871c6f38)
+
+Desktop
+![Desktop size](https://github.com/user-attachments/assets/96eb00b0-e675-4b54-925b-91fd78bb99b2)
 
 
 ## 🧪 E2E Testing with Cypress
@@ -108,6 +113,7 @@ Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for
 
 Karin Henriksson – Project lead and developer
 [@KarinHson](https://github.com/KarinHson)
+
 
 
 
