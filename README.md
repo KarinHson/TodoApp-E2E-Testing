@@ -80,7 +80,7 @@ Cypress test results:
 
 ## 🔗 Live Version & Repository Link
 
-You can view the live version of this project [here]().
+You can view the live version of this project [here](https://medieinstitutet.github.io/fed24d-testning-inl2-KarinHson/).
 
 Repository link: https://github.com/Medieinstitutet/fed24d-testning-inl2-KarinHson
 
@@ -106,7 +106,7 @@ npm run dev
 ```
 
 
-## 🤝Credits
+## 🤝 Credits
 
 Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for their feedback and support throughout the project.
 
@@ -114,6 +114,7 @@ Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for
 
 Karin Henriksson – Project lead and developer
 [@KarinHson](https://github.com/KarinHson)
+
 
 
 
