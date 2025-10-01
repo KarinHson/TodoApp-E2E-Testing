@@ -46,10 +46,10 @@ This website includes several key features:
 Here are some screenshots from the site:
 
 Mobile
-![Mobile size](https://github.com/user-attachments/assets/cc69a288-3b0d-4b38-ab23-54ec871c6f38)
+![Mobile size](https://github.com/user-attachments/assets/e8f5c4e2-f234-493d-bd86-359705cc26e2)
 
 Desktop
-![Desktop size](https://github.com/user-attachments/assets/96eb00b0-e675-4b54-925b-91fd78bb99b2)
+![Desktop size](https://github.com/user-attachments/assets/5c37c7fc-20e1-4aa9-8b6e-78f5f09e6d1e)
 
 
 ## 🧪 E2E Testing with Cypress
@@ -62,7 +62,8 @@ Desktop
 
 These tests ensure your app works exactly as intended from a user's perspective.
 
-![Cypress test results](https://github.com/user-attachments/assets/0d6b6be5-ee1b-4ed0-b855-3c6256c2e863)
+Cypress test results:
+![Cypress test results](https://github.com/user-attachments/assets/c7950629-d4d8-41f0-85df-c1c66be4528c")
 
 
 ## 🍎 Lessons learned
@@ -113,6 +114,7 @@ Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for
 
 Karin Henriksson – Project lead and developer
 [@KarinHson](https://github.com/KarinHson)
+
 
 
 
