@@ -63,7 +63,7 @@ Desktop
 These tests ensure your app works exactly as intended from a user's perspective.
 
 Cypress test results:
-![Cypress test results](https://github.com/user-attachments/assets/c7950629-d4d8-41f0-85df-c1c66be4528c")
+![Cypress test results](https://github.com/user-attachments/assets/c7950629-d4d8-41f0-85df-c1c66be4528c)
 
 
 ## 🍎 Lessons learned
@@ -114,6 +114,7 @@ Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for
 
 Karin Henriksson – Project lead and developer
 [@KarinHson](https://github.com/KarinHson)
+
 
 
 
