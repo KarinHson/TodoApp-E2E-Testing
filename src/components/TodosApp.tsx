@@ -5,13 +5,26 @@ import { Todo } from "../models/Todo"
 
 export const TodosApp = () => {
 
-    const [todoList, setTodoList] = useState<Todo[]> (
-        JSON.parse(localStorage.getItem("todos") || JSON.stringify(
-            [
-            new Todo('Så plantor', new Date(), false),
-            new Todo('Rensa ogräs', new Date(), true),
-        ]
-        )))
+interface SavedTodo {
+  id: string;
+  content: string;
+  created_at: string;
+  isDone: boolean;
+}
+
+const savedTodos: SavedTodo[] = JSON.parse(localStorage.getItem("todos") || "[]");
+
+const todosWithDates = savedTodos.map(t => ({
+  ...t,
+  created_at: new Date(t.created_at)
+}));
+
+const [todoList, setTodoList] = useState<Todo[]>(
+  todosWithDates.length ? todosWithDates : [
+    new Todo('Så plantor', new Date(), false),
+    new Todo('Rensa ogräs', new Date(), true),
+  ]
+);
 
     const [sortOrder, SetSortOrder] = useState<'asc' | 'desc' | null>(null)
 
