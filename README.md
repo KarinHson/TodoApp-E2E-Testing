@@ -93,7 +93,7 @@ Repository link: https://github.com/Medieinstitutet/fed24d-testning-inl2-KarinHs
 
 ## 🚀 Installation
 
-1. Install the project locally with ___
+1. Install the project locally with npm
 
 ```bash
 npm install
@@ -114,6 +114,7 @@ Special thanks to my teachers Sebastian Tegel, Jenni Litorius and classmates for
 
 Karin Henriksson – Project lead and developer
 [@KarinHson](https://github.com/KarinHson)
+
 
 
 
